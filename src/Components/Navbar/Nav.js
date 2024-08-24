@@ -34,7 +34,6 @@ function Nav() {
         <a href="/" className="flex items-center">
           <img src="https://swarajjaiswal.github.io/saeevents/logo.png" alt="Logo" className="h-12" />
         </a>
-
         <div className="hidden md:flex space-x-8">
           <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">HOME</a>
           <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">EVENTS</a>

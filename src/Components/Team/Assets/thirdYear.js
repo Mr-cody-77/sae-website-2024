@@ -1,3 +1,14 @@
+import chandanImage from './3rdYearImg/Chandan Kumar Roy.png';
+import devanshImage from './3rdYearImg/Devansh Dubey.png';
+import mayankImage from './3rdYearImg/Mayank Mani Singh.png';
+import nisargaJanaImage from './3rdYearImg/Nisarga Jana.png';
+import kiranmaiPeradaImage from './3rdYearImg/Kiranmai Perada.png';
+import ramanPatelImage from './3rdYearImg/Raman Patel.png';
+import sarvpalliAryaImage from './3rdYearImg/Sarvapalli Arya.png';
+import soumyaRajImage from './3rdYearImg/Soumya Raj.png';
+import tanmayBandhuJaiswalImage from './3rdYearImg/Tanmay Bandhu Jaiswal.png';
+import udayBhaskarImage from './3rdYearImg/Uday Bhaskar.png';
+
 export const thirdYear = [
     {
         "url":"https://live.staticflickr.com/65535/52965821941_f27650736c_n.jpg",
@@ -18,7 +29,7 @@ export const thirdYear = [
         "name":"Aryan Gupta",
         "position":"Senior Coordinator",
         "instaLink":"",
-        "linkedinLink":"",
+        "linkedinLink":"https://www.linkedin.com/in/aryangupta2511/",
     },
     {
         "url":"https://live.staticflickr.com/65535/52965889164_af7b692f0f_n.jpg",
@@ -28,13 +39,12 @@ export const thirdYear = [
         "linkedinLink":"https://www.linkedin.com/in/anubhav-mondal-61b963255",
     },
     {
-        "url":require('../Assets/3rdYearImg/Chandan Kumar Roy.png'),
-        "name":"Chandan Roy",
-        "position":"Senior Coordinator",
-        "instaLink":"https://www.instagram.com/prash_482/",
-        "linkedinLink":"https://www.linkedin.com/in/prasant-sahu-0b236923a",
+        url: chandanImage,
+        name: "Chandan Roy",
+        position: "Senior Coordinator",
+        instaLink: "https://www.instagram.com/prash_482/",
+        linkedinLink: "https://www.linkedin.com/in/prasant-sahu-0b236923a",
     },
- 
     {
         "url":"https://live.staticflickr.com/65535/52966207433_cb91a81c21_n.jpg",
         "name":"Doki Manoj Kumar",
@@ -43,11 +53,11 @@ export const thirdYear = [
         "linkedinLink":"https://www.linkedin.com/in/manoj-kumar-doki-796549250/",
     },
     {
-        "url":require('../Assets/3rdYearImg/Devansh Dubey.png'),
-        "name":"Devansh Dubey",
-        "position":"Senior Coordinator",
-        "instaLink":"",
-        "linkedinLink":"",
+        url: devanshImage,
+        name: "Devansh Dubey",
+        position: "Senior Coordinator",
+        instaLink: "",
+        linkedinLink: "https://www.linkedin.com/in/inertial-observer/",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966207158_d929d620a0_n.jpg",
@@ -71,32 +81,32 @@ export const thirdYear = [
         "linkedinLink":"",
     },
     {
-        "url":require("./3rdYearImg/Mayank Mani Singh.png"),
-        "name":"Mayank Mani Singh",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/singhmayankmani?igshid=ZDc4ODBmNjlmNQ==",
-        "linkedinLink":"https://www.linkedin.com/in/mayank-mani-singh-aa133526a",
+        url: mayankImage,
+        name: "Mayank Mani Singh",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/singhmayankmani?igshid=ZDc4ODBmNjlmNQ==",
+        linkedinLink: "https://www.linkedin.com/in/mayank-mani-singh-aa133526a",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966124710_7974bb9c26_w.jpg",
         "name":"Manish Kumar Yadav",
         "position":"Senior Coordinator",
-        "instaLink":"",
+        "instaLink":"https://www.linkedin.com/in/manish-kumar-yadav-18881427a/",
         "linkedinLink":"",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966124605_06b5472610_w.jpg",
         "name":"Namrata Gupta",
         "position":"Senior Coordinator",
-        "instaLink":"",
-        "linkedinLink":"",
+        "instaLink":"https://www.instagram.com/me_namrataax/",
+        "linkedinLink":"https://www.linkedin.com/in/namrata-gupta-b22b74259/",
     },
     {
-        "url":require("./3rdYearImg/Nisarga Jana.png"),
-        "name":"Nisarga Jana",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/nj_0.0_?igshid=NGExMmI2YTkyZg==",
-        "linkedinLink":"https://www.linkedin.com/in/nisarga-jana-634400259",
+        url: nisargaJanaImage,
+        name: "Nisarga Jana",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/nj_0.0_?igshid=NGExMmI2YTkyZg==",
+        linkedinLink: "https://www.linkedin.com/in/nisarga-jana-634400259",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966124865_83437e845b_w.jpg",
@@ -106,11 +116,11 @@ export const thirdYear = [
         "linkedinLink":"",
     },
     {
-        "url":require("./3rdYearImg/Kiranmai Perada.png"),
-        "name":"Perada Kiranmai",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/__.k.i.r.a.n.m.a.i.__?igshid=NGExMmI2YTkyZg==",
-        "linkedinLink":"https://www.linkedin.com/in/kiranmai-perada-a606b226a",
+        url: kiranmaiPeradaImage,
+        name: "Perada Kiranmai",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/__.k.i.r.a.n.m.a.i.__?igshid=NGExMmI2YTkyZg==",
+        linkedinLink: "https://www.linkedin.com/in/kiranmai-perada-a606b226a",
     },
     {
         "url":"https://live.staticflickr.com/65535/52965150332_d1e9e9225e_n.jpg",
@@ -127,11 +137,11 @@ export const thirdYear = [
         "linkedinLink":"https://www.linkedin.com/in/pothina-divya-venkata-durga-naga-sai-45610625a",
     },
     {
-        "url":require("../Assets/3rdYearImg/Raman Patel.png"),
-        "name":"Raman Patel",
-        "position":"Senior Coordinator",
-        "instaLink":"",
-        "linkedinLink":"https://www.linkedin.com/in/raman-patel-4a333926a",
+        url: ramanPatelImage,
+        name: "Raman Patel",
+        position: "Senior Coordinator",
+        instaLink: "",
+        linkedinLink: "https://www.linkedin.com/in/raman-patel-4a333926a",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966206688_b6a6bbbc7d_w.jpg",
@@ -155,18 +165,18 @@ export const thirdYear = [
         "linkedinLink":"https://www.linkedin.com/in/samaseen-prabhat-b90909262",
     },
     {
-        "url":require("../Assets/3rdYearImg/Sarvapalli Arya.png"),
-        "name":"Sarvpalli Arya",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/shivangi_._queen?igshid=NGExMmI2YTkyZg==",
-        "linkedinLink":"https://www.linkedin.com/in/sarvpalli-arya-0034a9261",
+        url: sarvpalliAryaImage,
+        name: "Sarvpalli Arya",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/shivangi_._queen?igshid=NGExMmI2YTkyZg==",
+        linkedinLink: "https://www.linkedin.com/in/sarvpalli-arya-0034a9261",
     },
     {
-        "url":require("./3rdYearImg/Soumya Raj.png"),
-        "name":"Soumya Raj",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/_sxumyaa?igshid=MzNlNGNkZWQ4Mg==",
-        "linkedinLink":"https://www.linkedin.com/in/soumya-raj-78685727a",
+        url: soumyaRajImage,
+        name: "Soumya Raj",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/_sxumyaa?igshid=MzNlNGNkZWQ4Mg==",
+        linkedinLink: "https://www.linkedin.com/in/soumya-raj-78685727a",
     },
     {
         "url":"https://live.staticflickr.com/65535/53126313107_106838b187_t.jpg",
@@ -176,11 +186,11 @@ export const thirdYear = [
         "linkedinLink":"https://in.linkedin.com/in/tarak-suhas-abhiram-puppala-418b25268",
     },
     {
-        "url":require("./3rdYearImg/Tanmay Bandhu Jaiswal.png"),
-        "name":"Tanmay Bandhu Jaiswal",
-        "position":"Senior Coordinator",
-        "instaLink":"https://instagram.com/t.a.n.m.a.y._.j.a.i.s.w.a.l?igshid=MzNlNGNkZWQ4Mg==",
-        "linkedinLink":"https://www.linkedin.com/in/tanmay-bandhu-jaiswal-552b31229",
+        url: tanmayBandhuJaiswalImage,
+        name: "Tanmay Bandhu Jaiswal",
+        position: "Senior Coordinator",
+        instaLink: "https://instagram.com/t.a.n.m.a.y._.j.a.i.s.w.a.l?igshid=MzNlNGNkZWQ4Mg==",
+        linkedinLink: "https://www.linkedin.com/in/tanmay-bandhu-jaiswal-552b31229",
     },
     {
         "url":"https://live.staticflickr.com/65535/52965149777_eae9508a6d_w.jpg",
@@ -201,7 +211,7 @@ export const thirdYear = [
         "name":"Sunil Kumawat",
         "position":"Senior Coordinator",
         "instaLink":"",
-        "linkedinLink":"",
+        "linkedinLink":"https://www.linkedin.com/in/sunil-kumawat-7b5199301/",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966124400_54e6aa06f2_n.jpg",
@@ -222,7 +232,7 @@ export const thirdYear = [
         "name":"Souryadipta Khan",
         "position":"Senior Coordinator",
         "instaLink":"",
-        "linkedinLink":"",
+        "linkedinLink":"https://www.linkedin.com/in/souryadipta-khan-0122b927b/",
     },
     {
         "url":"https://live.staticflickr.com/65535/52966124380_bbb90e0987_w.jpg",
@@ -239,10 +249,10 @@ export const thirdYear = [
         "linkedinLink":"",
     },
     {
-        "url":require("../Assets/3rdYearImg/Uday Bhaskar.png"),
-        "name":"Uday Bhaskar",
-        "position":"Senior Coordinator",
-        "instaLink":"",
-        "linkedinLink":"https://www.linkedin.com/in/uday-bhaskar-478392264",
+        url: udayBhaskarImage,
+        name: "Uday Bhaskar",
+        position: "Senior Coordinator",
+        instaLink: "",
+        linkedinLink: "https://www.linkedin.com/in/uday-bhaskar-478392264",
     },
-]
+];
