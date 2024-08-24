@@ -35,11 +35,12 @@ function Nav() {
           <img src="https://swarajjaiswal.github.io/saeevents/logo.png" alt="Logo" className="h-12" />
         </a>
         <div className="hidden md:flex space-x-8">
-          <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">HOME</a>
-          <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">EVENTS</a>
-          <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">TEAMS</a>
-          <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">TEDX</a>
-          <a href="/" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">AAROHAN</a>
+          <a href="/home" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">HOME</a>
+          <a href="/events" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">EVENTS</a>
+          <a href="/teams" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">TEAMS</a>
+          <a href="/tedx" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">TEDX</a>
+          <a href="/aarohan" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">AAROHAN</a>
+          <a href="/alumni" className="ted-nav-link text-lg font-bold hover:text-cushrefm-red">ALUMNI</a>
         </div>
 
         <buthrefn className="md:hidden relative z-20" onClick={hrefggleNavbar}>
@@ -59,10 +60,11 @@ function Nav() {
         >
           <div className="flex flex-col space-y-4 ml-12 m-8">
             <a href="/" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">HOME</a>
-            <a href="/" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">EVENTS</a>
-            <a href="/" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">TEAMS</a>
-            <a href="/" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">TEDX</a>
-            <a href="/" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">AAROHAN</a>
+            <a href="/events" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">EVENTS</a>
+            <a href="/teams" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">TEAMS</a>
+            <a href="/tedx" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">TEDX</a>
+            <a href="/aarohan" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">AAROHAN</a>
+            <a href="/alumni" className="block text-white hover:text-cushrefm-red text-lg font-bold transition duration-300 ease-in-out">ALUMNI</a>
           </div>
         </div>
       </div>

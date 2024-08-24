@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/" Component={Events}></Route>
           <Route exact path="/teams" Component={Teams}></Route>
           <Route exact path="/aarohan" Component={Aarohan}></Route>
+          <Route exact path="/events" Component={Events}></Route>
           {/* <Route exact path="/tedx" Component={TedX}></Route> */}
           <Route exact path="/alumni" Component={Alumni}></Route>
         </Routes>
