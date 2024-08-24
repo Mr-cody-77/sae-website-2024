@@ -24,7 +24,7 @@ const Cardalumni = (props) => {
                 </a>
               </div>
             </div>
-            <di className="button-Alumni"><button></button></di>
+            <div className="button-Alumni"><button></button></div>
         </div>
     </div>
 
