@@ -7,9 +7,9 @@ import Teams from "./Components/Team/Teams.js";
 import Nav from "./Components/Navbar/Nav.js"
 // import home from "./Components/Home/home.jsx";
 // import TedX from "./Components/Tedx/TedX.jsx";
-// import Footer from "./Components/Footer/Footer.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -24,9 +24,8 @@ function App() {
           {/* <Route exact path="/tedx" Component={TedX}></Route> */}
           <Route exact path="/alumni" Component={Alumni}></Route>
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
-      {/* <Footer/> */}
     </div>
   );
 }

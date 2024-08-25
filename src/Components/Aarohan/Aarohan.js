@@ -79,7 +79,7 @@ function Aarohan() {
           <div className="h-full w-full lg:h-[400px] lg:w-[590px] ">
             <img
               src="https://images.pexels.com/photos/16070201/pexels-photo-16070201.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
-              alt="Image"
+              alt="error"
               className="h-full w-full lg:h-[400px] lg:w-[590px] rounded-md object-center"
               data-aos="fade-right"
             />
@@ -109,7 +109,7 @@ function Aarohan() {
           <div className="h-full w-full lg:h-[400px] lg:w-[590px] ">
             <img
               src="https://images.pexels.com/photos/16070143/pexels-photo-16070143.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
-              alt="Image"
+              alt="error"
               className="h-full w-full lg:h-[400px] lg:w-[590px] rounded-md object-center"
               data-aos="fade-left"
             />
@@ -209,7 +209,7 @@ function Aarohan() {
               <div className="arhn-front">
                 <img
                   src={arhn_org.organizer_img}
-                  alt="image"
+                  alt="error"
                   className="card__img"
                 />
               </div>

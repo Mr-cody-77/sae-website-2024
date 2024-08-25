@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Nav.css'; 
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 function Nav() {
   const [isOpen, setIsOpen] = useState(false); 
   const [isScrolled, setIsScrolled] = useState(false);
