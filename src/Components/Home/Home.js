@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Lottie from 'lottie-react';
 import { scroll, animate } from 'https://cdn.skypack.dev/motion@10.13.1';
-import './home.css';
+import './Home.css';
 import cloudAnimation from '../../Cloud.json';
 import engineAnimation from '../../Engine1.json';
+// import engineData from '../../Engine1.json';
 import ReactPlayer from 'react-player';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -21,7 +22,7 @@ const channelId= "UC9H4onmkThYbMHrce2PceQg";
 
 const fetchurl = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${channelId}&part=snippet,id&order=date&maxResults=43`;
 
-export const home = () => {
+export const Home = () => {
   const [allvideos, setAllvideos] = useState([]);
 
   const[isFlipped, setIsFlipped] = useState(false)

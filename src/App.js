@@ -5,7 +5,7 @@ import Aarohan from './Components/Aarohan/Aarohan.js';
 import Events from "./Components/Events/Events.js";
 import Teams from "./Components/Team/Teams.js";
 import Nav from "./Components/Navbar/Nav.js"
-// import home from "./Components/Home/home.jsx";
+// import {Home} from "./Components/Home/Home.js";
 // import TedX from "./Components/Tedx/TedX.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/teams" Component={Teams}></Route>
           <Route exact path="/aarohan" Component={Aarohan}></Route>
           <Route exact path="/events" Component={Events}></Route>
-          {/* <Route exact path="/tedx" Component={TedX}></Route> */}
+          <Route exact path="/tedx" Component={Aarohan}></Route>
           <Route exact path="/alumni" Component={Alumni}></Route>
         </Routes>
         <Footer/>
